@@ -20,7 +20,7 @@ function Planos(){
           <li>Corrida sob demanda</li>
           <li>Suporte via Chat</li>
         </ul>
-        <h2>R$15,50 por mês</h2>
+        <h2 className="valores">R$15,50 por mês</h2>
       </div>
 
       <div className="cardplanos"> 
@@ -32,7 +32,7 @@ function Planos(){
           <li>Suporte 24/7 em todos os nossos meios</li>
           <li>Desconto em Serviços</li>
         </ul>
-        <h2>R$25,50 por mês</h2>
+        <h2 className="valores">R$25,50 por mês</h2>
       </div>
 
       <div className="cardplanos">
@@ -46,7 +46,7 @@ function Planos(){
           <li>Acesso de emergência</li>
           <li>Corridas Ilimitadas</li>
         </ul>
-    <h2>R$30,00 por mês</h2>
+    <h2 className="valores">R$30,00 por mês</h2>
       </div>
       </div>
     </section>
