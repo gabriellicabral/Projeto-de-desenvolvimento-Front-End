@@ -14,30 +14,39 @@ function Planos(){
 <div className="todososcards_planos">
       <div className="cardplanos">
         <h3>Básico</h3>
-        <p>Pagamento por corrida</p>
-        <h4>Motoristas verificados</h4>
-        <h4>Corrida sob demanda</h4>
-        <h4>Suporte via Chat</h4>
+        <ul>
+          <li>Pagamento por corrida</li>
+          <li>Motoristas verificados</li>
+          <li>Corrida sob demanda</li>
+          <li>Suporte via Chat</li>
+        </ul>
+        <h2>R$15,50 por mês</h2>
       </div>
 
       <div className="cardplanos"> 
         <h3>Escolar</h3>
-        <p>Para uso diário escolar</p>
-        <h4>Motoristas verificados</h4>
-        <h4>Prioridade de corrida</h4>
-        <h4>Suporte 24/7 em todos os nossos meios</h4>
-        <h4>Desconto em Serviços</h4>
+        <ul>
+          <li>Para uso diário escolar</li>
+          <li>Motoristas verificados</li>
+          <li>Prioridade de corrida</li>
+          <li>Suporte 24/7 em todos os nossos meios</li>
+          <li>Desconto em Serviços</li>
+        </ul>
+        <h2>R$25,50 por mês</h2>
       </div>
 
       <div className="cardplanos">
         <h3>Premium</h3>
-        <p>Atendimento prioritário</p>
-        <h4>Motoristas verificados</h4>
-        <h4>Prioridade de corrida</h4>
-        <h4>Suporte 24/7 em todos os nossos meios</h4>
-        <h4>Desconto em Serviços</h4>
-        <h4>Acesso de emergência</h4>
-        <h4>Corridas Ilimitadas</h4>
+        <ul>
+          <li>Atendimento prioritário</li>
+          <li>Motoristas verificados</li>
+          <li>Prioridade de corrida</li>
+          <li>Suporte 24/7 em todos os nossos meios</li>
+          <li>Desconto em Serviços</li>
+          <li>Acesso de emergência</li>
+          <li>Corridas Ilimitadas</li>
+        </ul>
+    <h2>R$30,00 por mês</h2>
       </div>
       </div>
     </section>

@@ -107,4 +107,20 @@
   border-radius: 12px;
   width: 260px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0;
+}
+
+.cardplanos li{
+   position: relative;
+  padding-left: 25px;
+  margin-bottom: 8px;
+}
+
+.cardplanos li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #5ce1e6;
 }
