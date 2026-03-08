@@ -9,22 +9,23 @@ function Planos(){
         /*rascunho da página de planos, onde o cliente pode escolher o plano que melhor se encaixe em suas necessidades.*/
 
 
-<section>
-      <h2>Planos</h2>
-
-      <div>
+<section className="planos">
+      <h1>Planos</h1>
+<div className="todososcards_planos">
+      <div className="cardplanos">
         <h3>Básico</h3>
         <p>Pagamento por corrida</p>
       </div>
 
-      <div>
+      <div className="cardplanos"> 
         <h3>Escolar</h3>
         <p>Para uso diário escolar</p>
       </div>
 
-      <div>
+      <div className="cardplanos">
         <h3>Premium</h3>
         <p>Atendimento prioritário</p>
+      </div>
       </div>
     </section>
 
