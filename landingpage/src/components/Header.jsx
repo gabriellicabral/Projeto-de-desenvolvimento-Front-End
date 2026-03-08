@@ -3,12 +3,12 @@
 // além de fornecer links de navegação para outras seções do site.
 //no final, exportamos o componente para que ele possa ser usado em outras partes do aplicativo.
 //por exemplo, se navegarmos para outras paginas, o header permanecerá consistente em todas elas.
-
+import logo from "../assets/logo.png";
 function Header () {
     return (
         <header className="header">
             <div className="logoetitulo">
-                <img src="./landingpage/src/assets/logo.png" alt="Logo Internacional de Acessibilidade" className="headerlogo" />
+                <img src={logo} alt="Logo Internacional de Acessibilidade" className="headerlogo" />
                 <h1>Mobilidade Inclusiva</h1>
             </div>
             <nav className="navdaheader"> 
