@@ -107,10 +107,11 @@
   border-radius: 12px;
   width: 260px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.cardplanos ul{
   list-style: none;
   padding: 0;
 }
-
 .cardplanos li{
    position: relative;
   padding-left: 25px;
@@ -119,7 +120,6 @@
 
 .cardplanos li::before {
   content: '✓';
-  list-style: none;
   position: absolute;
   left: 0;
   top: 0;
