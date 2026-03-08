@@ -119,6 +119,7 @@
 
 .cardplanos li::before {
   content: '✓';
+  list-style: none;
   position: absolute;
   left: 0;
   top: 0;
