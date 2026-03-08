@@ -1,0 +1,9 @@
+/*o App.css é o arquivo de estilo para o componente principal da aplicação 
+ele é importado no arquivo App.jsx, para estilizar o componente principal que é a div com a classe "App"
+que está localizada no arquivo App.jsx*/
+.App{
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+
+}

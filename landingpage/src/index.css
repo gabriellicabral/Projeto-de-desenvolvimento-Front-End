@@ -1,0 +1,59 @@
+/*o index.css é o arquivo de estilo global do projeto, onde podemos definir estilos que serão aplicados em todo o site.
+ Ele é importado no arquivo main.jsx, garantindo que os estilos sejam aplicados em toda a aplicação.*/
+/*Resetando as margens, preenchimentos e definindo o box-sizing para border-box para todos os elementos*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  background: linear-gradient(90deg, #8c52ff, #5ce1e6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px ;
+}
+
+.logoetitulo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navdaheader{
+  display: flex;
+  gap: 20px;
+}
+
+.footer{
+  background: linear-gradient(90deg, #8c52ff, #5ce1e6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.divnavdafooter{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.secaohome{
+  background: #dff2ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.divtexthome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
