@@ -8,7 +8,7 @@ function Header () {
     return (
         <header className="header">
             <div className="logoetitulo">
-                <img src={logo} alt="Logo Internacional de Acessibilidade" className="headerlogo" />
+                <img src={logo} alt="Logo Internacional de Acessibilidade" id="logoimg" />
                 <h1>Mobilidade Inclusiva</h1>
             </div>
            <nav className="navdaheader"> 

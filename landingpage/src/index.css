@@ -21,7 +21,10 @@
   align-items: center;
   gap: 10px;
 }
-
+#logoimg{
+  width: 55px;
+  height: 50px;
+}
 .navdaheader{
   display: flex;
   gap: 20px;
