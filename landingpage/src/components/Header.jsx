@@ -11,13 +11,13 @@ function Header () {
                 <img src={logo} alt="Logo Internacional de Acessibilidade" className="headerlogo" />
                 <h1>Mobilidade Inclusiva</h1>
             </div>
-            <nav className="navdaheader"> 
-                <a href="/sobre">Sobre</a>
+           <nav className="navdaheader"> 
+  <a href="/sobre">Sobre</a>
                 <a href="/planos">Planos</a>
                 <a href="/seguranca">Segurança</a>
                 <a href="/cadastro">Cadastro</a>
                 <a href="/home">Home</a>
-            </nav>
+</nav>
         </header>
     )
 }
