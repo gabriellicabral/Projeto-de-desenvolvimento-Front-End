@@ -107,6 +107,8 @@
   border-radius: 12px;
   width: 260px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
 }
 .cardplanos ul{
   list-style: none;
