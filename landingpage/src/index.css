@@ -88,7 +88,7 @@
 
 .planos{
     text-align: center;
-  padding: 40px;
+  padding: 20px;
   height: 400px;
    background: #dff2ff;
 }
@@ -114,7 +114,7 @@
 }
 .cardplanos li{
    position: relative;
-  padding-left: 25px;
+  padding-left: 15px;
   margin-bottom: 8px;
 }
 
@@ -127,6 +127,6 @@
 }
 
 .cardplanos h2{
-  margin-top: 20px;
+  justify-content: end;
   color: #8c52ff;
 }
