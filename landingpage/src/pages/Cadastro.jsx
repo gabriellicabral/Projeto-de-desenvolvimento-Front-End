@@ -1,21 +1,33 @@
-//criando a página de cadastro
-//essa página é para mostrar um formulário de cadastro para os usuários e motoristas, onde eles podem preencher seus dados pessoais, como nome, email, senha, etc.
-//ela pode ser acessada através do menu de navegação(na header e no footer) 
-//ela é uma das rotas principais do site, junto com a home, sobre e segurança.
 
+// Página de cadastro do site.
+// Aqui o usuário poderá preencher um formulário com seus dados,
+// como nome, email, senha e outras informações necessárias.
+
+// Criamos uma função chamada Cadastro.
+// No React, funções como essa são chamadas de componentes.
+// Cada componente representa uma parte da interface do site.
 function Cadastro(){
     return(
-        <>
-        <section className = "secaodecadastro">
+        
+        // Seção principal da página de cadastro
+        <section className="secaodecadastro">
+
+        {/* Área destinada ao cadastro de usuários */}
         <div>
             <h1>Cadastro de usuário</h1>
         </div>
         
+        {/* Área destinada ao cadastro de motoristas */}
         <div>
             <h1>Cadastro de motorista</h1>
-            </div>
-            </section>
-            </>
+        </div>
+
+        </section>
+            
     )
 }
+
+// Exportamos o componente Cadastro para que ele possa ser utilizado
+// em outros arquivos do projeto, como no App.jsx onde definimos as rotas.
 export default Cadastro;
+

@@ -1,36 +1,58 @@
-/*o index.css é o arquivo de estilo global do projeto, onde podemos definir estilos que serão aplicados em todo o site.
- Ele é importado no arquivo main.jsx, garantindo que os estilos sejam aplicados em toda a aplicação.*/
 
-/*Resetando as margens, preenchimentos e definindo o box-sizing para border-box para todos os elementos*/
+/* 
+Arquivo de estilos globais do projeto.
+
+O index.css define estilos que podem ser utilizados em todo o site.
+Ele é importado no arquivo main.jsx, fazendo com que os estilos
+sejam aplicados em toda a aplicação React.
+*/
+
+
+/* Reset básico de estilos
+Remove margens e espaçamentos padrão do navegador
+e define box-sizing para facilitar o controle de tamanho dos elementos */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/*estilização da header*/
+
+
+/* ================= HEADER ================= */
+
+/* Estilização do cabeçalho do site */
 .header{
   background: linear-gradient(90deg, #8c52ff, #5ce1e6);
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100px ;
+  height: 100px;
 }
 
+/* Área que contém o logo e o título do site */
 .logoetitulo{
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
+/* Estilização da imagem do logo */
 #logoimg{
   width: 55px;
   height: 50px;
 }
+
+/* Navegação presente no cabeçalho */
 .navdaheader{
   display: flex;
   gap: 20px;
 }
-/*estilização do footer*/
+
+
+/* ================= FOOTER ================= */
+
+/* Estilização do rodapé do site */
 .footer{
   background: linear-gradient(90deg, #8c52ff, #5ce1e6);
   display: flex;
@@ -39,12 +61,17 @@
   height: 100px;
 }
 
+/* Área de navegação do rodapé */
 .divnavdafooter{
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
-/*estilização da seção home*/
+
+
+/* ================= HOME ================= */
+
+/* Seção principal da página inicial */
 .secaohome{
   background: #dff2ff;
   display: flex;
@@ -54,6 +81,8 @@
   height: 400px;
   gap: 40px;
 }
+
+/* Área que contém o título e o texto da página inicial */
 .divtextohome{
   display: flex;
   flex-direction: column;
@@ -63,6 +92,8 @@
   gap: 20px;
   width: 100%;
 }
+
+/* Botão utilizado na página inicial */
 .buttonhome{
   background: #7b5cff;
   color: white;
@@ -74,14 +105,17 @@
 }
 
 
-/*estilização da seção sobre*/
+/* ================= SOBRE ================= */
+
+/* Seção da página "Sobre" */
 .sobre {
   text-align: center;
   padding: 40px;
   height: 400px;
-   background: #dff2ff;
+  background: #dff2ff;
 }
 
+/* Container que agrupa todos os cards da seção */
 .todososcards {
   display: flex;
   justify-content: center;
@@ -90,6 +124,7 @@
   flex-wrap: wrap;
 }
 
+/* Estilização individual de cada card */
 .card {
   background: #f5f5f5;
   padding: 20px;
@@ -98,15 +133,18 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/*estilização da seção plano*/
 
+/* ================= PLANOS ================= */
+
+/* Seção da página de planos */
 .planos{
-    text-align: center;
+  text-align: center;
   padding: 20px;
   height: 400px;
-   background: #dff2ff;
+  background: #dff2ff;
 }
 
+/* Container que agrupa os cards de planos */
 .todososcards_planos {
   display: flex;
   justify-content: center;
@@ -115,6 +153,7 @@
   flex-wrap: wrap;
 }
 
+/* Card individual de cada plano */
 .cardplanos {
   background: #f5f5f5;
   padding: 20px;
@@ -124,17 +163,22 @@
   display: flex;
   flex-direction: column;
 }
+
+/* Lista de benefícios dentro do card */
 .cardplanos ul{
   list-style: none;
   padding: 0;
   flex-grow: 1;
 }
+
+/* Itens da lista de benefícios */
 .cardplanos li{
-   position: relative;
+  position: relative;
   padding-left: 15px;
   margin-bottom: 8px;
 }
 
+/* Ícone de verificação antes de cada benefício */
 .cardplanos li::before {
   content: '✓';
   position: absolute;
@@ -143,6 +187,7 @@
   color: #5ce1e6;
 }
 
+/* Valor do plano exibido no card */
 .valores{
   margin-top: auto;
   font-weight: bold;
