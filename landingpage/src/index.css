@@ -62,6 +62,11 @@
   width: 100%;
 }
 
+.divtexthome h1, h3{
+  justify-content: center;
+  
+}
+
 /*estilização da seção sobre*/
 .sobre {
   text-align: center;
