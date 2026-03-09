@@ -54,12 +54,11 @@
   height: 400px;
 }
 .divtexthome{
-  border-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  width: 100%;
+  width: 80%;
 }
 
 /*estilização da seção sobre*/
