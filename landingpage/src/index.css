@@ -57,16 +57,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   gap: 20px;
   width: 100%;
 }
 
-.divtextohome h1, h3{
-  display: flex;
-  justify-content: center;
-  
-}
 
 /*estilização da seção sobre*/
 .sobre {
