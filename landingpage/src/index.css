@@ -62,7 +62,8 @@
   width: 100%;
 }
 
-/*.divtextohome h1, h3{
+.divtextohome h1, h3{
+  display: flex;
   justify-content: center;
   
 }
