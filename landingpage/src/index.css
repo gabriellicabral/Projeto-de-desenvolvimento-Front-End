@@ -62,6 +62,15 @@
   gap: 20px;
   width: 100%;
 }
+.buttonhome{
+  background: #7b5cff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 
 /*estilização da seção sobre*/
