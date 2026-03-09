@@ -1,5 +1,6 @@
 /*o index.css é o arquivo de estilo global do projeto, onde podemos definir estilos que serão aplicados em todo o site.
  Ele é importado no arquivo main.jsx, garantindo que os estilos sejam aplicados em toda a aplicação.*/
+
 /*Resetando as margens, preenchimentos e definindo o box-sizing para border-box para todos os elementos*/
 *{
   margin: 0;
@@ -53,6 +54,7 @@
   height: 400px;
 }
 .divtexthome{
+  border-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
