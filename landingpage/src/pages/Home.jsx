@@ -12,9 +12,11 @@ function Home(){
             <h3>Criamos este site para conectar pessoas a soluções que promovem acessibilidade, mobilidade e autonomia no dia a dia.
 Porque acreditamos que tecnologia deve incluir, facilitar e aproximar pessoas.</h3>
 </div>
-<button className="buttonhome" link="/cadastro">
-                CADASTRO
-            </button>
+{/* a tag <a> é usada para criar um link para a página de cadastro, seguida do href que é
+o caminho para a página de cadastro. Essa navegação será executada ao clicar no button */}
+<a href="/cadastro">
+<button className="buttonhome">CADASTRO</button>
+</a>
         </section>
     )
 }
