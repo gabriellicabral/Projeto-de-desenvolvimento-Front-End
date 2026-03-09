@@ -52,6 +52,7 @@
   align-items: center;
   justify-content: center;
   height: 400px;
+  gap: 20px;
 }
 .divtextohome{
   display: flex;
