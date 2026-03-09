@@ -12,7 +12,7 @@ function Home(){
             <h3>Criamos este site para conectar pessoas a soluções que promovem acessibilidade, mobilidade e autonomia no dia a dia.
 Porque acreditamos que tecnologia deve incluir, facilitar e aproximar pessoas.</h3>
 </div>
-<button>CADASTRO</button>
+<button className="buttonhome">CADASTRO</button>
         </section>
     )
 }
