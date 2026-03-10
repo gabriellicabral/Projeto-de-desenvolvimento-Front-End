@@ -44,6 +44,7 @@ function Header () {
                 <a href="/planos">Planos</a>
                 <a href="/seguranca">Segurança</a>
                 <a href="/cadastro">Cadastro</a>
+                <a href="/trabalheconosco">Trabalhe Conosco</a>
                 
 
             </nav>

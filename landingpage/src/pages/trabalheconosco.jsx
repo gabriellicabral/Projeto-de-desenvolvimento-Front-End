@@ -1,4 +1,4 @@
-function trabalheConosco (){
+function Trabalheconosco (){
     return(
         <section>
             <div>
@@ -8,4 +8,4 @@ function trabalheConosco (){
     )
 }
 
-export default trabalheConosco;
+export default Trabalheconosco;
