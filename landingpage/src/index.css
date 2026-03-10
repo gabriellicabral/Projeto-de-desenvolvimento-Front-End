@@ -96,6 +96,7 @@ section{
 .secaohome{
   background: #dff2ff;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
