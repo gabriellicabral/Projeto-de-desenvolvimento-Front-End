@@ -213,5 +213,7 @@ e define box-sizing para facilitar o controle de tamanho dos elementos */
 }
 
 .cadastrodiv{
+  border: solid black;
+  height: 300px;
   
 }
