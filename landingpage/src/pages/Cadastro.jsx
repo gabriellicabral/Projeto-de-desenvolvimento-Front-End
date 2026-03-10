@@ -11,7 +11,7 @@ function Cadastro(){
                         {/* COLUNA RESPONSÁVEL */}
                         <div className="coluna">
 
-                            <h2>Cadastro do Responsável</h2>
+                            <h2>👤 Cadastro do Responsável</h2>
 
                             <label>Nome completo</label>
                             <input type="text" name="nome" required />
@@ -38,7 +38,7 @@ function Cadastro(){
                         {/* COLUNA PASSAGEIRO */}
                         <div className="coluna">
 
-                            <h2>Informações do Passageiro</h2>
+                            <h2>♿ Informações do Passageiro</h2>
 
                             <label>Tipo de deficiência</label>
                             <input type="text" name="deficiencia" />
