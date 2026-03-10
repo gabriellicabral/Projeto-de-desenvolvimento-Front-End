@@ -103,11 +103,12 @@ section{
 }
 
 .divconteudohome{
- flex-direction: column;
+ display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  gap: 30px;
+  min-height: calc(100vh - 180px);
+  gap: 20px;
 }
 
 
