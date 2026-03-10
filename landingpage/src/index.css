@@ -216,25 +216,34 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 .cadastrodiv{
   background: white;
   padding: 40px;
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 900px;
   width: 100%;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-form{
+/* GRID COM 2 COLUNAS */
+.formgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* COLUNA */
+.coluna{
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 form h2{
-  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 input, select, textarea{
@@ -243,16 +252,18 @@ input, select, textarea{
   border: 1px solid #ccc;
 }
 
-button[type="submit"]{
-  margin-top: 15px;
+/* BOTÃO OCUPANDO AS 2 COLUNAS */
+.botaocadastro{
+  grid-column: span 2;
+  margin-top: 20px;
   background: #7b5cff;
   color: white;
   border: none;
-  padding: 10px;
+  padding: 12px;
   border-radius: 8px;
   cursor: pointer;
 }
 
-button[type="submit"]:hover{
+.botaocadastro:hover{
   background: #6847ff;
 }

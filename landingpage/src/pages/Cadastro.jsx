@@ -1,81 +1,75 @@
-
-// Página de cadastro do site.
-// Aqui o usuário poderá preencher um formulário com seus dados,
-// como nome, email, senha e outras informações necessárias.
-
-// Criamos uma função chamada Cadastro.
-// No React, funções como essa são chamadas de componentes.
-// Cada componente representa uma parte da interface do site.
 function Cadastro(){
     return(
-        
-        // Seção principal da página de cadastro
         <section className="secaodecadastro">
 
             <div className="container">
 
-        {/* Área destinada ao cadastro de usuários */}
-        <div className="cadastrodiv">
-               <form>
+                <div className="cadastrodiv">
 
-                    <h2>Cadastro do Responsável</h2>
+                    <form className="formgrid">
 
-                    <label>Nome completo</label>
-                    <input type="text" name="nome" required />
+                        {/* COLUNA RESPONSÁVEL */}
+                        <div className="coluna">
 
-                    <label>CPF</label>
-                    <input type="text" name="cpf" />
+                            <h2>Cadastro do Responsável</h2>
 
-                    <label>Telefone</label>
-                    <input type="tel" name="telefone" />
+                            <label>Nome completo</label>
+                            <input type="text" name="nome" required />
 
-                    <label>Endereço</label>
-                    <input type="text" name="endereco" />
+                            <label>CPF</label>
+                            <input type="text" name="cpf" />
 
-                    <label>Forma de pagamento</label>
-                    <select name="pagamento">
-                        <option>Pix</option>
-                        <option>Cartão</option>
-                        <option>Dinheiro</option>
-                    </select>
+                            <label>Telefone</label>
+                            <input type="tel" name="telefone" />
 
-                    <h2>Informações do Passageiro</h2>
+                            <label>Endereço</label>
+                            <input type="text" name="endereco" />
 
-                    <label>Tipo de deficiência</label>
-                    <input type="text" name="deficiencia" />
+                            <label>Forma de pagamento</label>
+                            <select name="pagamento">
+                                <option>Pix</option>
+                                <option>Cartão</option>
+                                <option>Dinheiro</option>
+                            </select>
 
-                    <label>Necessidades específicas</label>
-                    <textarea name="necessidades"></textarea>
-
-                    <label>Usa cadeira de rodas?</label>
-                    <select name="cadeira">
-                        <option>Sim</option>
-                        <option>Não</option>
-                    </select>
-
-                    <label>Necessita acompanhante?</label>
-                    <select name="acompanhante">
-                        <option>Sim</option>
-                        <option>Não</option>
-                    </select>
-
-                    <button type="submit">Cadastrar</button>
-
-                </form>
-            
+                        </div>
 
 
-            
-        </div>
+                        {/* COLUNA PASSAGEIRO */}
+                        <div className="coluna">
 
-        </div>
+                            <h2>Informações do Passageiro</h2>
+
+                            <label>Tipo de deficiência</label>
+                            <input type="text" name="deficiencia" />
+
+                            <label>Necessidades específicas</label>
+                            <textarea name="necessidades"></textarea>
+
+                            <label>Usa cadeira de rodas?</label>
+                            <select name="cadeira">
+                                <option>Sim</option>
+                                <option>Não</option>
+                            </select>
+
+                            <label>Necessita acompanhante?</label>
+                            <select name="acompanhante">
+                                <option>Sim</option>
+                                <option>Não</option>
+                            </select>
+
+                        </div>
+
+                        <button type="submit" className="botaocadastro">Cadastrar</button>
+
+                    </form>
+
+                </div>
+
+            </div>
 
         </section>
-            
     )
 }
 
-// Exportamos o componente Cadastro para que ele possa ser utilizado
-// em outros arquivos do projeto, como no App.jsx onde definimos as rotas.
 export default Cadastro;
-
