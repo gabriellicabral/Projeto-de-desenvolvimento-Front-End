@@ -17,7 +17,7 @@ function Home(){
             <div className="container">
 
             {/* Área onde ficam o título e o texto principal */}
-            <div className="divtextohome">
+            <div className="divconteudohome">
 
                 {/* Título principal da página */}
                 <h1>
@@ -31,14 +31,11 @@ function Home(){
                 Porque acreditamos que tecnologia deve incluir, facilitar e aproximar pessoas.
                 </h3>
 
-            </div>
-
 
             {/* a tag <a> é usada para criar um link para a página de cadastro, 
             seguida do href que é o caminho para a página de cadastro. 
             Essa navegação será executada ao clicar no button */}
 
-<div className="divbuttonhome">
             <a href="/cadastro">
 
                 {/* Botão que leva o usuário para a página de cadastro */}
