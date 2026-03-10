@@ -200,3 +200,17 @@ e define box-sizing para facilitar o controle de tamanho dos elementos */
   color: #7b5cff;
   font-size: 22px;
 }
+
+/* ================= CADASTRO ================= */
+
+.secaodecadastro{
+  background: #dff2ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cadastrodiv{
+  
+}
