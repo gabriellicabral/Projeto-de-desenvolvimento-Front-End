@@ -205,6 +205,7 @@ e define box-sizing para facilitar o controle de tamanho dos elementos */
 
 .secaodecadastro{
   background: #dff2ff;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
