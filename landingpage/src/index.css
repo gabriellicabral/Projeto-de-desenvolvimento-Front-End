@@ -41,6 +41,11 @@ main{
   padding: 40px 20px;
 }
 
+/*Para que todas as paginas fiquem com a mesma altura e largura */
+section{
+  min-height: calc(100vh - 180px);
+}
+
 /* ================= HEADER ================= */
 
 .header{
