@@ -215,5 +215,10 @@ e define box-sizing para facilitar o controle de tamanho dos elementos */
 .cadastrodiv{
   border: solid black;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   
 }
