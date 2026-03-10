@@ -96,9 +96,10 @@ section{
 .secaohome{
   background: #dff2ff;
   display: flex;
+ flex-direction: column;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .divconteudohome{
