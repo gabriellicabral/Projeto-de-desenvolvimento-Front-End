@@ -104,6 +104,11 @@ e define box-sizing para facilitar o controle de tamanho dos elementos */
   cursor: pointer;
 }
 
+.divbuttonhome{
+  display: flex;
+  flex-direction: row;
+}
+
 
 /* ================= SOBRE ================= */
 

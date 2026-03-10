@@ -34,6 +34,7 @@ function Home(){
             seguida do href que é o caminho para a página de cadastro. 
             Essa navegação será executada ao clicar no button */}
 
+<div className="divbuttonhome">
             <a href="/cadastro">
 
                 {/* Botão que leva o usuário para a página de cadastro */}
@@ -41,11 +42,12 @@ function Home(){
                     CADASTRO
                 </button>
                 </a>
-                <a href="">
+                <a href="/trabalheconosco">
                 <button className="buttonhome">
                     TRABALHE CONOSCO
                 </button>
                 </a>
+                </div>
 
             
 
