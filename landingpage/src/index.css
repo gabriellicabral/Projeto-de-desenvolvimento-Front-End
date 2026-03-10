@@ -97,6 +97,7 @@ section{
   background: #dff2ff;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -111,7 +112,6 @@ section{
 
 .divbuttonhome{
   display: flex;
-  align-items: center;
   gap: 20px;
   margin-top: 20px;
 }
