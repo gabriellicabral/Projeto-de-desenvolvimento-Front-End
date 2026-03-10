@@ -30,7 +30,7 @@ function App() {
       {/* Cabeçalho exibido em todas as páginas */}
       <Header />
 
-      <Main>
+      <main>
 
       <Routes>
 
@@ -54,7 +54,7 @@ function App() {
 
 
       </Routes>
-      </Main>
+      </main>
 
       {/* Rodapé exibido em todas as páginas */}
       <Footer />
