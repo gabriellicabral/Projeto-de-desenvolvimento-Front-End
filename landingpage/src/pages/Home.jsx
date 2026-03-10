@@ -43,11 +43,6 @@ function Home(){
                     CADASTRO
                 </button>
                 </a>
-                <a href="/trabalheconosco">
-                <button className="buttonhome">
-                    TRABALHE CONOSCO
-                </button>
-                </a>
                 </div>
                 </div>
 
