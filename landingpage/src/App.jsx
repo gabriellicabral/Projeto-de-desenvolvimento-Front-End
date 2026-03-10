@@ -14,7 +14,7 @@ import Sobre from "./pages/Sobre";
 import Planos from "./pages/Planos";
 import Seguranca from "./pages/Seguranca";
 import Cadastro from "./pages/Cadastro";
-import Trabalheconosco from "./pages/Trabalheconosco";
+import Trabalheconosco from "./pages/trabalheconosco";  
 
 
 // Função principal do aplicativo
@@ -38,24 +38,23 @@ function App() {
         <Route path="/Home" element={<Home />} />
 
         {/* Página "Sobre" */}
-        <Route path="/Sobre" element={<Sobre />} />
+        <Route path="/sobre" element={<Sobre />} />
 
         {/* Página de planos */}
-        <Route path="/Planos" element={<Planos />} />
+        <Route path="/planos" element={<Planos />} />
 
         {/* Página de segurança */}
-        <Route path="/Seguranca" element={<Seguranca />} />
+        <Route path="/seguranca" element={<Seguranca />} />
 
         {/* Página de cadastro */}
-        <Route path="/Cadastro" element={<Cadastro />} />
+        <Route path="/cadastro" element={<Cadastro />} />
 
         {/* Página de trabalhe conosco */}
-        <Route path="/Trabalheconosco" element={<Trabalheconosco/>} />
+        <Route path="/trabalheconosco" element={<Trabalheconosco/>} />
 
 
       </Routes>
       </Main>
-
 
       {/* Rodapé exibido em todas as páginas */}
       <Footer />
