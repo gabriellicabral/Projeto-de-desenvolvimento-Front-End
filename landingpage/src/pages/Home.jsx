@@ -12,6 +12,10 @@ function Home(){
         // Seção principal da página inicial
         <section className="secaohome">
 
+
+        {/* div envolvendo todo o conteúdo */}
+            <div className="container">
+
             {/* Área onde ficam o título e o texto principal */}
             <div className="divtextohome">
 
@@ -47,6 +51,7 @@ function Home(){
                     TRABALHE CONOSCO
                 </button>
                 </a>
+                </div>
                 </div>
 
             

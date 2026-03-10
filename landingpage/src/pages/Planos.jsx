@@ -16,6 +16,7 @@ function Planos(){
     */
 
 <section className="planos">
+  <div className="container">
 
       {/* Título da página */}
       <h1>Planos</h1>
@@ -76,6 +77,7 @@ function Planos(){
         <h2 className="valores">R$30,00 por mês</h2>
       </div>
 
+      </div>
       </div>
     </section>
 

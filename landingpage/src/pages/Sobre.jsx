@@ -8,7 +8,11 @@
 function Sobre(){
     return(
         <section className="sobre">
+
+            <div className="container">
+
              <h1>Sobre a Mobilidade Inclusiva</h1>
+             
              <div className="todososcards">
             <div className="card">
                 <h3>Nossa História</h3>
@@ -24,6 +28,7 @@ function Sobre(){
                 <h3>Tecnologia</h3>
                 <p>  Utilizamos a tecnologia como ferramenta para promover inclusão
         e contribuir para cidades mais acessíveis e preparadas para todos.</p>
+            </div>
             </div>
             </div>
         </section>

@@ -10,7 +10,7 @@ function Seguranca(){
 
         // Área principal da página de segurança
         <section>
-        <div>
+        <div className="container">
 
             {/* Título da página */}
             <h1>Segurança</h1>

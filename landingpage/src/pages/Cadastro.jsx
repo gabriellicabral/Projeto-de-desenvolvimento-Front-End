@@ -12,6 +12,8 @@ function Cadastro(){
         // Seção principal da página de cadastro
         <section className="secaodecadastro">
 
+            <div className="container">
+
         {/* Área destinada ao cadastro de usuários */}
         <div className="cadastrodiv">
                <form>
@@ -64,6 +66,8 @@ function Cadastro(){
 
 
             
+        </div>
+
         </div>
 
         </section>

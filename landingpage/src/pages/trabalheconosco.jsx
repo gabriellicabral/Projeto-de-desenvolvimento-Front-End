@@ -1,7 +1,7 @@
 function Trabalheconosco (){
     return(
         <section>
-            <div>
+            <div className="container">
                 <h1>trabalhe conosco</h1>
             </div>
         </section>

@@ -1,4 +1,3 @@
-
 /* 
 Arquivo de estilos globais do projeto.
 
@@ -7,162 +6,168 @@ Ele é importado no arquivo main.jsx, fazendo com que os estilos
 sejam aplicados em toda a aplicação React.
 */
 
+/* ================= RESET ================= */
 
-/* Reset básico de estilos
-Remove margens e espaçamentos padrão do navegador
-e define box-sizing para facilitar o controle de tamanho dos elementos */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= ESTRUTURA GLOBAL ================= */
+
+/* estrutura principal do site */
+.app{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* área onde as páginas ficam */
+main{
+  flex: 1;
+}
+
+/* container padrão usado nas páginas */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 40px 20px;
+}
 
 /* ================= HEADER ================= */
 
-/* Estilização do cabeçalho do site */
 .header{
   background: linear-gradient(90deg, #8c52ff, #5ce1e6);
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100px;
+  height: 90px;
+  padding: 0 40px;
 }
 
-/* Área que contém o logo e o título do site */
 .logoetitulo{
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-/* Estilização da imagem do logo */
 #logoimg{
   width: 55px;
   height: 50px;
 }
 
-/* Navegação presente no cabeçalho */
 .navdaheader{
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
-
 
 /* ================= FOOTER ================= */
 
-/* Estilização do rodapé do site */
 .footer{
   background: linear-gradient(90deg, #8c52ff, #5ce1e6);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 90px;
+  padding: 0 40px;
 }
 
-/* Área de navegação do rodapé */
 .divnavdafooter{
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 4px;
 }
-
 
 /* ================= HOME ================= */
 
-/* Seção principal da página inicial */
 .secaohome{
   background: #dff2ff;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 400px;
-  gap: 40px;
 }
 
-/* Área que contém o título e o texto da página inicial */
 .divtextohome{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  justify-content: center;
   gap: 20px;
-  width: 100%;
-}
-
-/* Botão utilizado na página inicial */
-.buttonhome{
-  background: #7b5cff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
+  max-width: 800px;
 }
 
 .divbuttonhome{
   display: flex;
-  flex-direction: row;
-  gap: 20px ;
+  gap: 20px;
+  margin-top: 20px;
 }
 
+.buttonhome{
+  background: #7b5cff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonhome:hover{
+  background: #6847ff;
+}
 
 /* ================= SOBRE ================= */
 
-/* Seção da página "Sobre" */
-.sobre {
-  text-align: center;
-  padding: 40px;
-  height: 400px;
+.sobre{
   background: #dff2ff;
-}
-
-/* Container que agrupa todos os cards da seção */
-.todososcards {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
+  text-align: center;
+}
+
+.todososcards{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
   flex-wrap: wrap;
 }
 
-/* Estilização individual de cada card */
-.card {
+.card{
   background: #f5f5f5;
-  padding: 20px;
+  padding: 25px;
   border-radius: 12px;
   width: 260px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-
 /* ================= PLANOS ================= */
 
-/* Seção da página de planos */
 .planos{
-  text-align: center;
-  padding: 20px;
-  height: 400px;
   background: #dff2ff;
-}
-
-/* Container que agrupa os cards de planos */
-.todososcards_planos {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
+  text-align: center;
+}
+
+.todososcards_planos{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
   flex-wrap: wrap;
 }
 
-/* Card individual de cada plano */
-.cardplanos {
+.cardplanos{
   background: #f5f5f5;
-  padding: 20px;
+  padding: 25px;
   border-radius: 12px;
   width: 260px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -170,32 +175,28 @@ e define box-sizing para facilitar o controle de tamanho dos elementos */
   flex-direction: column;
 }
 
-/* Lista de benefícios dentro do card */
 .cardplanos ul{
   list-style: none;
   padding: 0;
   flex-grow: 1;
+  margin-top: 10px;
 }
 
-/* Itens da lista de benefícios */
 .cardplanos li{
   position: relative;
-  padding-left: 15px;
+  padding-left: 18px;
   margin-bottom: 8px;
 }
 
-/* Ícone de verificação antes de cada benefício */
-.cardplanos li::before {
-  content: '✓';
+.cardplanos li::before{
+  content: "✓";
   position: absolute;
   left: 0;
-  top: 0;
   color: #5ce1e6;
 }
 
-/* Valor do plano exibido no card */
 .valores{
-  margin-top: auto;
+  margin-top: 20px;
   font-weight: bold;
   color: #7b5cff;
   font-size: 22px;
@@ -205,25 +206,45 @@ e define box-sizing para facilitar o controle de tamanho dos elementos */
 
 .secaodecadastro{
   background: #dff2ff;
-  height: 400px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  justify-content: center;
 }
 
 .cadastrodiv{
-  border: solid black;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
 form{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
+}
+
+form h2{
+  margin-top: 20px;
+}
+
+input, select, textarea{
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"]{
+  margin-top: 15px;
+  background: #7b5cff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover{
+  background: #6847ff;
 }
