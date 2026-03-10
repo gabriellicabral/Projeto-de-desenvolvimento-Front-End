@@ -39,11 +39,12 @@ function Header () {
             <nav className="navdaheader"> 
 
                 {/* Links para navegar entre as páginas */}
+                <a href="/home">Home</a>
                 <a href="/sobre">Sobre</a>
                 <a href="/planos">Planos</a>
                 <a href="/seguranca">Segurança</a>
                 <a href="/cadastro">Cadastro</a>
-                <a href="/home">Home</a>
+                
 
             </nav>
 

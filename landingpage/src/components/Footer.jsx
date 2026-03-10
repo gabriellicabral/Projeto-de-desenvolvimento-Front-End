@@ -23,11 +23,12 @@ function Footer(){
                 <div className="divnavdafooter">
 
                     {/* Links para navegar entre as páginas do site */}
+                    <a href="/home">Home</a>
                     <a href="/sobre">Sobre</a>
                     <a href="/planos">Planos</a>
                     <a href="/seguranca">Segurança</a>
                     <a href="/cadastro">Cadastro</a>
-                    <a href="/home">Home</a>
+                    
 
                 </div>
 

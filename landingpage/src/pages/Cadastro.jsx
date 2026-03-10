@@ -16,11 +16,6 @@ function Cadastro(){
         <div>
             <h1>Cadastro de usuário</h1>
         </div>
-        
-        {/* Área destinada ao cadastro de motoristas */}
-        <div>
-            <h1>Cadastro de motorista</h1>
-        </div>
 
         </section>
             

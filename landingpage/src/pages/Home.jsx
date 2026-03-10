@@ -33,14 +33,21 @@ function Home(){
             {/* a tag <a> é usada para criar um link para a página de cadastro, 
             seguida do href que é o caminho para a página de cadastro. 
             Essa navegação será executada ao clicar no button */}
+
             <a href="/cadastro">
 
                 {/* Botão que leva o usuário para a página de cadastro */}
                 <button className="buttonhome">
                     CADASTRO
                 </button>
+                </a>
+                <a href="">
+                <button className="buttonhome">
+                    TRABALHE CONOSCO
+                </button>
+                </a>
 
-            </a>
+            
 
         </section>
     )
