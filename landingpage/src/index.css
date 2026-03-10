@@ -107,6 +107,7 @@ section{
   align-items: center;
   justify-content: center;
   text-align: center;
+  gap: 30px;
 }
 
 
